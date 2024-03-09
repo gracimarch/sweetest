@@ -1,0 +1,148 @@
+:root {
+    --fondo: rgb(255, 228, 233);
+    --principal: rgb(255, 106, 138);
+    --oscuro: rgb(219, 81, 111);
+    --claro: #ff97ae;
+}
+
+@font-face {
+    font-family: Saeda;
+    src: url(fonts/LTSaeada-Black.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: var(--fondo);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20%;
+    border-bottom: 1px solid --principal;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: var(--principal);
+}
+
+nav ul li a button {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+    font-size: 16px;
+}
+
+.contacto {
+    background-color: var(--principal);
+    padding: 10px 20px;
+    border: 1px solid var(--principal);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.contacto:hover {
+    background-color: var(--claro);
+    border: 1px solid var(--claro);
+}
+
+#home {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home div {
+    padding: 30px 0;
+    border-radius: 15px;
+}
+
+#home div img {
+    width: 300px;
+    margin-left: 80px;
+}
+
+#home div h1 {
+    color: var(--principal);
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-family: 'Saeda', sans-serif;
+}
+
+.wave {
+    margin-bottom: -10px !important; 
+    margin: 0 auto;
+}
+
+.wave img {
+    width: 100%;
+}
+
+#productos {
+    margin: 0 auto;
+    padding: 10px 20%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--fondo);
+    text-align: center;
+}
+
+#productos div {
+    padding: 30px 0;
+    border-radius: 15px;
+}
+
+#productos div h1 {
+    color: var(--principal);
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-family: 'Saeda', sans-serif;
+}
+
+.sabores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sabores img {
+    width: 360px;
+}
