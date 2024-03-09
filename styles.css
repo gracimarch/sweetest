@@ -144,5 +144,11 @@ nav ul li a button {
 }
 
 .sabores img {
-    width: 360px;
+    width: 320px;
+    border: 2px solid #fff;
+    transition: all 0.3s;
+}
+
+.sabores img:hover {
+    filter: blur(5px);
 }
